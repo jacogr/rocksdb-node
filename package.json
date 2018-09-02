@@ -23,6 +23,7 @@
   },
   "optionalDependencies": {},
   "main": "rocksdb.js",
+  "types": "types.d.ts",
   "scripts": {
     "preuninstall": "rm -rf build/*",
     "test": "standard | snazzy && tap test/*.test.js",
